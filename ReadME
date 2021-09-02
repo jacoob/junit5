@@ -1,0 +1,3 @@
+command for run test with maven tools: mvn clean install
+note: please check  <groups> and <excludedGroups> in maven-surefire-plugin.
+----------------

@@ -38,10 +38,10 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.0</version>
-                <configuration>
-                    <groups>individual</groups>
-                    <excludedGroups>repository</excludedGroups>
-                </configuration>
+<!--                <configuration>-->
+<!--                    <groups>individual</groups>-->
+<!--                    <excludedGroups>repository</excludedGroups>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
