@@ -1,4 +1,4 @@
-package assertAll;
+package junit5;
 
 import common.Calculator;
 import org.junit.jupiter.api.*;

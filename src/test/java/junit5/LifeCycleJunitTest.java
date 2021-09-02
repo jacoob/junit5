@@ -1,4 +1,4 @@
-package assertAll;
+package junit5;
 
 import common.Calculator;
 import common.Customer;
@@ -9,6 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 /**
  * Author : mahdi ,  Date : 9/2/2021
  */
+@Tag("LifeCycleJunitTest")
 public class LifeCycleJunitTest {
 
     //static fileds

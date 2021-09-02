@@ -1,8 +1,7 @@
-package assertAll;
+package junit5;
 
 import common.Calculator;
 import common.Customer;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 

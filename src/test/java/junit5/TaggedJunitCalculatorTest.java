@@ -1,4 +1,4 @@
-package assertAll;
+package junit5;
 
 
 import common.Calculator;
@@ -11,8 +11,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 
 
-
-public class AssertAllTeat {
+@Tag("CalculatorTest")
+public class TaggedJunitCalculatorTest {
 
     static Calculator calculator;
 
