@@ -10,17 +10,20 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class Test1 {
+public class LifeCycleJunitTestNonStatic {
     Calculator calculator;
 
     //run this code once before all test
     //this is static (default)
     //it can be nonstatic if @TestInstance(TestInstance.Lifecycle.PER_CLASS) on class
+    //access modifier can be package private or public
     @BeforeAll
     void initTest() {
         calculator = new Calculator();
     }
 
+    //access modifier can be package private or public
+    //return type must be void
     @Test
     @DisplayName("test sum :)") //show this name for test, default display name is Method name
     void testSum() {

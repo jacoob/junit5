@@ -16,6 +16,9 @@ public class LifeCycleJunitTest {
     private static Customer customer;
 
     //static method
+    //run this code once before all test
+    //this is static (default)
+    //it can be nonstatic if @TestInstance(TestInstance.Lifecycle.PER_CLASS) on class
     @BeforeAll
     static void beforeAllTest() {
         calculator = new Calculator();
@@ -42,6 +45,7 @@ public class LifeCycleJunitTest {
     }
 
     @Test
+    @DisplayName("test sum :)") //show this name for test, default display name is Method name
     public void testSum(){
         assertEquals(2, calculator.sum(1,1));
     }

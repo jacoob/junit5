@@ -16,9 +16,7 @@ public class AssertAllTeat {
 
     static Calculator calculator;
 
-    //run this code once before all test
-    //this is static (default)
-    //it can be nonstatic if @TestInstance(TestInstance.Lifecycle.PER_CLASS) on class
+
     @BeforeAll
      static void initTest() {
         calculator = new Calculator();
