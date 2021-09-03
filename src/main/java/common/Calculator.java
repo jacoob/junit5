@@ -9,6 +9,11 @@ public class Calculator {
         return i+j;
     }
 
+    public int sumDelay(int i,int j) throws InterruptedException {
+        Thread.sleep(10);
+        return i+j;
+    }
+
     public int multiple(int i,int j){
         return i*j;
     }

@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+
+
 /**
  * Author : mahdi ,  Date : 9/2/2021
  */
@@ -15,6 +17,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 //tag over class and over method
 //use tags to filter test discovery and execution.(in pom, <groups> and <excludedGroups> in maven-surefire-plugin
+
+@Tag("dao")
 @Tag("CustomerTest")
 public class TaggedJunitCustomerTest {
     private static Customer customer;

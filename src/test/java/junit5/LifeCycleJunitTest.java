@@ -10,6 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * Author : mahdi ,  Date : 9/2/2021
  */
 @Tag("LifeCycleJunitTest")
+@Tag("dao")
 public class LifeCycleJunitTest {
 
     //static fileds

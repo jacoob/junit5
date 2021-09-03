@@ -24,4 +24,8 @@ public class Customer {
     public boolean contain(String name){
         return this.name.equals(name);
     }
+
+    public RuntimeException getException(){
+        throw new MyException("My Exception. please be polite!");
+    }
 }
