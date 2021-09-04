@@ -1,3 +1,10 @@
 command for run test with maven tools: mvn clean install
 note: please check  <groups> and <excludedGroups> in maven-surefire-plugin.
 ----------------
+The recommended way to work is to execute the tests from the command line with code
+coverage; this works fine in conjunction with the continuous integration/continuous
+development (CI/CD) pipeline. To do so, you can use the JaCoCo Java code coverage
+The recommended way to work is to execute the tests from the command line with code
+coverage; this works fine in conjunction with the continuous integration/continuous
+development (CI/CD) pipeline. To do so, you can use the JaCoCo Java code coverage.
+-----------------
