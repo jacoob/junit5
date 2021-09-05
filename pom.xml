@@ -48,6 +48,20 @@
         </dependency>
 
 
+        <!-- https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>3.11.2</version>
+            <scope>test</scope>
+        </dependency>
+
+<!--        <dependency>-->
+<!--            <groupId>org.junit.vintage</groupId>-->
+<!--            <artifactId>junit-vintage-engine</artifactId>-->
+<!--            <version>5.7.0</version>-->
+<!--        </dependency>-->
+
     </dependencies>
     <build>
         <plugins>
@@ -61,25 +75,6 @@
                     <excludedGroups>CalculatorTest</excludedGroups>
                 </configuration>
             </plugin>
-            <!--<plugin>
-                <artifactId>org.jacoco</artifactId>
-                <groupId>jacoco-maven-plugin</groupId>
-                <version>0.8.7</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>prepare-agent</goal>
-                        </goals>
-                    </execution>
-                    <execution>
-                        <id>report</id>
-                        <phase>test</phase>
-                        <goals>
-                            <goal>report</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>-->
 
             <plugin>
                 <groupId>org.jacoco</groupId>
